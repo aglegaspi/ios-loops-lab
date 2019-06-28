@@ -158,7 +158,8 @@ Change the code below to make the loop stop executing after it has run 1,000 tim
 ```swift
 var i = 5
 
-while (i > 3) {
+while (i < 1005) {
+    print(i)
     i += 1
 }
 ```
