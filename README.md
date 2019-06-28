@@ -81,6 +81,10 @@ Given a range of numbers from 20 to 150 inclusive, print out all the numbers tha
 
 `Numbers that are divisible by 2 and 3`
 
+for i in 20...150 where i % 3 == 0 || i % 2 == 0 {
+    print(i)
+}
+
 ***
 ## Question 9
 
