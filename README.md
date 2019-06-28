@@ -133,6 +133,7 @@ while (i > 3) {
 }
 
 // Your explanation here
+this is an infinite loop. it will keep going because there is no condition to be met that will stop the code.
 ```
 
 ***
