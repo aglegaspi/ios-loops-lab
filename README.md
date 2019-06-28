@@ -230,12 +230,13 @@ for i in 1...10 {
 }
 ```
 
-This is what will print out:
-[]4
-[]5
-[]6
-[]7
-
+The following will print:
+[]1
+[]2
+[]3
+[]8
+[]9
+[]10
 
 ***
 ## Question 18
@@ -250,17 +251,11 @@ for i in 1...10 {
     print(i)
 }
 ```
-
+The following will print:
 []1
 []2
 []3
-[]4
-[]5
-[]6
-[]7
-[]8
-[]9
-[]10
+
 
 ***
 ## Question 19
@@ -276,12 +271,19 @@ outerloop: for x in 1...3 {
         print("x = \(x), y = \(y)")
     }
 }
+
+x = 1, y = 1, y = 3
+x = 2, y = 1, y = 3
+x = 3, y = 1, y = 3
+
 ```
 
 ***
 ## Question 20
 
 Write code that prints out all the points in the area bounded by (0,0), (10,0), (0,10) and (10,10) **where** x and y are both integers.
+
+
 
 ***
 ## Question 21
