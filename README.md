@@ -61,12 +61,18 @@ for i in 1...100 where i % 10 == 5 {
 
 Write code that prints all the numbers that end in a 7 from 1 to 40, **inclusive.**
 
+
+
 ***
 ## Question 7
 
 Given a range of numbers from 20 to 150 inclusive, print out all the numbers that follows these conditions:
 
 `Numbers that are divisible by 3`
+
+for i in 20...150 where i % 3 == 0 {
+    print(i)
+}
 
 ***
 ## Question 8
