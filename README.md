@@ -23,7 +23,7 @@ for i in 1...150 {
 
 Write code that prints all the numbers from 142 to 159, **exclusive.**
 
-for i in 142...159 {
+for i in 142..<159 {
 print(i)
 }
 
@@ -52,7 +52,7 @@ for i in 19...51 where i % 2 != 0 {
 
 Write code that prints all the numbers that end in a **5** from 1 to 100, **exclusive.**
 
-for i in 1...100 where i % 10 == 5 {
+for i in 1..<100 where i % 10 == 5 {
     print(i)
 }
 
@@ -61,6 +61,9 @@ for i in 1...100 where i % 10 == 5 {
 
 Write code that prints all the numbers that end in a 7 from 1 to 40, **inclusive.**
 
+for num in 7...40 where num % 10 == 7 {
+    print(num)
+}
 
 
 ***
@@ -92,12 +95,30 @@ Given a range of numbers from 20 to 150 inclusive, print out all the numbers tha
 
 `Numbers that end with a 4`
 
+for num in 20...150 where num % 10 == 4 {
+    print(num)
+}
+
+
 ***
 ## Question 10
 
 Given a range of numbers from 20 to 150, print out all the numbers that follows these conditions:
 
 `Print out numbers: 31, 35, 40 to 60.`
+
+for num in 31...60 {
+    switch num {
+        case 31:
+            print(num)
+        case 35:
+            print(num)
+        case 40...60:
+            print(num)
+        default:
+            break
+            }        
+}
 
 ***
 ## Question 11
