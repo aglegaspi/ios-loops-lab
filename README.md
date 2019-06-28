@@ -42,6 +42,11 @@ for i in 15...80 where i % 2 == 0 {
 
 Write code that prints only the odd numbers from 19 to 51, **inclusive.**
 
+for i in 19...51 where i % 2 != 0 {
+    print(i)
+}
+
+
 ***
 ## Question 5
 
