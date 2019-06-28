@@ -266,15 +266,16 @@ Without using Xcode, what will the loop below print?  Explain below.
 outerloop: for x in 1...3 {
     innerloop: for y in 1...3 {
         if y == 2{
-            continue outerloop
+            continue outerloop 
         }
         print("x = \(x), y = \(y)")
     }
 }
 
-x = 1, y = 1, y = 3
-x = 2, y = 1, y = 3
-x = 3, y = 1, y = 3
+x = 1, y = 1 
+x = 2, y = 1
+x = 3, y = 1
+
 
 ```
 
@@ -284,11 +285,28 @@ x = 3, y = 1, y = 3
 Write code that prints out all the points in the area bounded by (0,0), (10,0), (0,10) and (10,10) **where** x and y are both integers.
 
 
+for i in 0...10 {
+    for j in 0...10 {
+        print("(\(i),\(j))", separator: "", terminator: " ")
+        }
+        print("")
+}
+
+
 
 ***
 ## Question 21
 
 Write code that prints out all the points in the area bounded by (0,0), (10,0), (0,10) and (10,10) **where** the difference of x and y is at least 5, and x and y are both integers.
+
+for i in 0...10 {
+    for j in 0...10 {
+        if  (i - j >= 5) || (j - i >= 5)  {
+        print("(\(i),\(j))", separator: "", terminator: " ")
+        }
+    }
+print("")
+}
 
 ***
 ## Question 22
@@ -305,6 +323,13 @@ Output:
 9
 16
 25
+
+
+var N = 8
+
+for i in 1...N {
+print(i * i)
+}
 ```
 
 ***
