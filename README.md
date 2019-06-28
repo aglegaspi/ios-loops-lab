@@ -144,7 +144,8 @@ Change the code below to make the loop stop executing when i reaches 9.
 ```swift
 var i = 5
 
-while (i > 3) {
+while (i <= 9) {
+    print(i)
     i += 1
 }
 ```
