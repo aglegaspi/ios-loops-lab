@@ -201,6 +201,10 @@ repeat {
     print("i = \(i)")
     i += 1
 } while i <= 10
+
+// your answer
+
+the answers will be the same they are both executing the logic just in a different form.
 ```
 
 ***
