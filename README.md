@@ -125,17 +125,14 @@ Given a range of numbers from 20 to 150, print out all the numbers that follows 
 `Print out numbers: 31, 35, 40 to 60.`
 
 ```swift
-for num in 31...60 {
+for num in 20...150 {
     switch num {
-        case 31:
+        case 31, 35, 40...60:
             print(num)
-        case 35:
-            print(num)
-        case 40...60:
-            print(num)
+            fallthrough
         default:
             break
-            }        
+        }        
 }
 ```
 
