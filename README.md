@@ -212,6 +212,10 @@ the answers will be the same they are both executing the logic just in a differe
 
 What's the difference between `break` and `continue`?  Give an example that demonstrates their differences.
 
+"break" if a condition is met it will break out of the current code block.
+
+"continue" if the condition if true it will skip the rest of the code and return to the beginning and run the code again.
+
 ***
 ## Question 17
 
@@ -226,16 +230,12 @@ for i in 1...10 {
 }
 ```
 
-[]1
-[]2
-[]3
+This is what will print out:
 []4
 []5
 []6
 []7
-[]8
-[]9
-[]10
+
 
 ***
 ## Question 18
