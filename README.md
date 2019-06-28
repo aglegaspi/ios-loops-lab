@@ -52,6 +52,10 @@ for i in 19...51 where i % 2 != 0 {
 
 Write code that prints all the numbers that end in a **5** from 1 to 100, **exclusive.**
 
+for i in 1...100 where i % 10 == 5 {
+    print(i)
+}
+
 ***
 ## Question 6
 
