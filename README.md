@@ -363,6 +363,7 @@ Try printing a single line of * first.
 Hint 2
 You can use print("") to print an empty line.
 
+```
 // your answer
 
 var N = 9
@@ -373,6 +374,8 @@ for _ in 1...N {
     }
     print("")
 }
+```
+
 
 
 ***
