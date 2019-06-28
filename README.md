@@ -14,6 +14,10 @@
 
 Write code that prints all the numbers from 1 to 150, **inclusive.**
 
+for i in 1...150 {
+print(i)
+}
+
 ***
 ## Question 2
 
