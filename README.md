@@ -14,7 +14,7 @@
 
 Write code that prints all the numbers from 1 to 150, **inclusive.**
 
-```
+```swift
 for i in 1...150 {
     print(i)
 }
@@ -25,7 +25,7 @@ for i in 1...150 {
 
 Write code that prints all the numbers from 142 to 159, **exclusive.**
 
-```
+```swift
 for i in 142..<159 {
 print(i)
 }
@@ -36,7 +36,7 @@ print(i)
 
 Write code that prints only the even numbers from 15 to 80, **inclusive.**
 
-```
+```swift
 for i in 15...80 where i % 2 == 0 {
     print(i)
 }
@@ -48,7 +48,7 @@ for i in 15...80 where i % 2 == 0 {
 
 Write code that prints only the odd numbers from 19 to 51, **inclusive.**
 
-```
+```swift
 for i in 19...51 where i % 2 != 0 {
     print(i)
 }
@@ -58,7 +58,8 @@ for i in 19...51 where i % 2 != 0 {
 ## Question 5
 
 Write code that prints all the numbers that end in a **5** from 1 to 100, **exclusive.**
-```
+
+```swift
 for i in 1..<100 where i % 10 == 5 {
     print(i)
 }
@@ -69,7 +70,7 @@ for i in 1..<100 where i % 10 == 5 {
 
 Write code that prints all the numbers that end in a 7 from 1 to 40, **inclusive.**
 
-```
+```swift
 for num in 7...40 where num % 10 == 7 {
     print(num)
 }
@@ -83,7 +84,7 @@ Given a range of numbers from 20 to 150 inclusive, print out all the numbers tha
 
 `Numbers that are divisible by 3`
 
-```
+```swift
 for i in 20...150 where i % 3 == 0 {
     print(i)
 }
@@ -96,7 +97,7 @@ Given a range of numbers from 20 to 150 inclusive, print out all the numbers tha
 
 `Numbers that are divisible by 2 and 3`
 
-```
+```swift
 for i in 20...150 where i % 3 == 0 || i % 2 == 0 {
     print(i)
 }
@@ -109,7 +110,7 @@ Given a range of numbers from 20 to 150 inclusive, print out all the numbers tha
 
 `Numbers that end with a 4`
 
-```
+```swift
 for num in 20...150 where num % 10 == 4 {
     print(num)
 }
@@ -123,7 +124,7 @@ Given a range of numbers from 20 to 150, print out all the numbers that follows 
 
 `Print out numbers: 31, 35, 40 to 60.`
 
-```
+```swift
 for num in 31...60 {
     switch num {
         case 31:
@@ -253,7 +254,7 @@ for i in 1...10 {
 }
 ```
 
-```
+```swift
 The following will print:
 []1
 []2
@@ -277,7 +278,7 @@ for i in 1...10 {
 }
 ```
 
-```
+```swift
 The following will print:
 []1
 []2
@@ -301,7 +302,7 @@ outerloop: for x in 1...3 {
 }
 ```
 
-```
+```swift
 x = 1, y = 1 
 x = 2, y = 1
 x = 3, y = 1
@@ -313,7 +314,7 @@ x = 3, y = 1
 
 Write code that prints out all the points in the area bounded by (0,0), (10,0), (0,10) and (10,10) **where** x and y are both integers.
 
-```
+```swift
 for i in 0...10 {
     for j in 0...10 {
         print("(\(i),\(j))", separator: "", terminator: " ")
@@ -357,7 +358,7 @@ Output:
 25
 ```
 
-```
+```swift
 //your answer
 
 var N = 8
@@ -398,7 +399,7 @@ Try printing a single line of * first.
 Hint 2
 You can use print("") to print an empty line.
 
-```
+```swift
 // your answer
 
 var N = 9
